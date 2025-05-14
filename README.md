@@ -10,7 +10,6 @@
 
 ![](https://github.com/IrinaQA423/gists1/blob/main/Screenshot_4.png?raw=true)
 
-3. Создать файл .env c переменными окружения  в корневой  папке  проекта, внести  в  него  токен.
 
 ### Как получить  токен?
 
@@ -27,6 +26,21 @@
 3. [Получите сервисный токен приложения (скрин для примера)](https://id.vk.com/about/business/go/docs/ru/vkid/latest/vk-id/connection/tokens/service-token).
 
 ![](https://github.com/IrinaQA423/gists1/blob/main/Screenshot_5.png?raw=true)
+
+### Где  хранить токен?
+
+Токен является конфиденциальной информацией, поэтому хранить его в коде опасно. 
+1. В корне проекта создайте файл `.env` и поместите в него токен. 
+
+![](https://github.com/IrinaQA423/gists1/blob/main/Screenshot_7.png?raw=true)
+
+Теперь программа сама извлечет токен из папки `.env` при запуске.
+
+![](https://github.com/IrinaQA423/gists1/blob/main/Screenshot_8.png?raw=true)
+
+2. Добавьте файл .env в файл .gitignore, чтобы он не попал в репозиторий  на  GitHub.
+
+![](https://github.com/IrinaQA423/gists1/blob/main/Screenshot_9.png?raw=true)
 
 ## Как запустить  программу?
 
