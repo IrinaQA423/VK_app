@@ -59,7 +59,6 @@ def main():
     token = os.environ['VK_TOKEN']
     version = '5.199'
 
-    # Настройка argparse
     parser = argparse.ArgumentParser(description='Сокращение ссылок и получение статистики по ним.')
     parser.add_argument('url', type=str, help='Введите ссылку для сокращения или статистики')
     args = parser.parse_args()
