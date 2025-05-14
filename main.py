@@ -4,6 +4,7 @@ from urllib.parse import urlparse
 from dotenv import load_dotenv
 import argparse
 
+
 def shorten_link(token, user_input, version):
     url = 'https://api.vk.com/method/utils.getShortLink'
     payload = {
